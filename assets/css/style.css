@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "DELTARUNE";
+    src: url(../css/logo_font_dr.ttf);
+}
+
+@font-face {
+    font-family: "UT/DR Text";
+    src: url(../css/text_font_utdr.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: "UT/DR Text";
+    font-size: 14px;
+    color: white;
+}
+
+
+body header img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+body section a {
+    text-decoration: none;
+    color: yellow;
+}
+
+img.dog {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+body article p {
+    text-align: justify;
+}
+
+p.textdog {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+img.fun_gang {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+h1.titulos {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img.beginning {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img.mundo_oscuro {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.mundo_oscuro {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.field {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.field {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.forest {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.forest {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+article ul a {
+    text-decoration: none;
+    color: white;
+}
+
+img.castillo {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.castillo {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.jevil {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.jevil {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.pueblo {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.pueblo {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+div.logos {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img.ciudad {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.ciudad {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.mansion {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.mansion {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.puzzle {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+p.puzzle {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.rouxls {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p.rouxls {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+img.queen {
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p.queen {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+body video {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+p.contacto {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p.dont_forget {
+    font-weight: 800;
+}
+
+/**Los strong fueron utilizados para dar color a dos únicas palabra en diferentes partes del texto que llevaban diferentes colores**/
+strong.issue {
+    color: red;
+    font-weight: 400;
+}
+
+strong.resolve {
+    color: #00FF00;
+    font-weight: 400;
+}
+
+p.email {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2.titulos_tracks{
+    color: yellow;
+    text-align: center;
+}
+
+section audio {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    font-size: 8px;
+    text-align: center;
+    color: gray;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
