@@ -8,7 +8,7 @@
     src: url(../css/text_font_utdr.ttf);
 }
 
-html {
+body {
     background-color: black;
     font-family: "UT/DR Text";
     font-size: 14px;
