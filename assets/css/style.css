@@ -15,43 +15,6 @@ body {
     color: white;
 }
 
-@media (min-width: 720px) {
-    body p {
-        text-align: justify;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-@media (min-width: 720px) {
-    h1 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-@media (min-width: 720px) {
-    h2 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-@media (min-width: 720px) {
-    h3 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-@media (min-width: 720px) {
-    body header img {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
 body header img {
     text-align: center;
     display: block;
@@ -61,16 +24,6 @@ body header img {
 body section a {
     text-decoration: none;
     color: yellow;
-}
-
-@media (min-width: 720px) {
-    img.dog {
-        width: 100%;
-        height: auto;
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
 }
 
 img.dog {
@@ -90,14 +43,6 @@ p.textdog {
     margin: 0 auto;
     font-size: 30px;
     font-weight: 800;
-}
-
-@media (min-width: 720px) {
-    img.fun_gang {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
 }
 
 img.fun_gang {
