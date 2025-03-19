@@ -38,7 +38,7 @@ body section a {
 /* Esto ajusta img.dog para vista móvil */
 @media (min-width: 320px) and (max-width: 768px) {
     img.dog {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
         height: auto;
     }
