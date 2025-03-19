@@ -35,6 +35,7 @@ body section a {
     color: yellow;
 }
 
+/* Esto ajusta img.dog para vista móvil */
 @media (min-width: 320px) and (max-width: 768px) {
     img.dog {
         max-width: 90%;
@@ -54,6 +55,7 @@ body p {
     text-align: justify;
 }
 
+/* Esto es para que el p.textdog no se muestre en móvil porque se pierde el chiste por el tamaño de la imagen */
 @media (min-width: 320px) and (max-width: 768px) {
     p.textdog {
         display: none;
@@ -67,6 +69,7 @@ p.textdog {
     font-weight: 800;
 }
 
+/* Esto ajusta img.fun_gan para móvil */
 @media (min-width: 320px) and (max-width: 768px) {
     img.fun_gang {
         max-width: 90%;
@@ -283,6 +286,7 @@ footer a {
     color: gray;
 }
 
+/* Esto ajusta el footer para móvil */
 @media (min-width: 320px) and (max-width: 768px) {
     footer {
         font-size: 6px;
