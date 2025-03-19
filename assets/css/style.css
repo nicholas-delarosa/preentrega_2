@@ -15,7 +15,16 @@ body {
     color: white;
 }
 
+/* Esto hace que la img del header quede centrada y bien proporcionada según el dispositivo que se use  */
+@media (min-width: 320px) and (max-width: 768px) {
+    body header img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
 body header img {
+    max-width: 100%;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -26,6 +35,14 @@ body section a {
     color: yellow;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+    img.dog {
+        max-width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
 img.dog {
     text-align: center;
     display: block;
@@ -33,21 +50,34 @@ img.dog {
 }
 
 
-body article p {
+body p {
     text-align: justify;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    p.textdog {
+        display: none;
+    }
 }
 
 p.textdog {
     text-align: center;
-    display: block;
     margin: 0 auto;
     font-size: 30px;
     font-weight: 800;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+    img.fun_gang {
+        max-width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
 img.fun_gang {
+    display: flex;
     text-align: center;
-    display: block;
     margin: 0 auto;
 }
 
@@ -251,4 +281,10 @@ footer p {
 footer a {
     text-decoration: none;
     color: gray;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    footer {
+        font-size: 6px;
+    }
 }
