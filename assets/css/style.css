@@ -15,6 +15,15 @@ body {
     color: white;
 }
 
+/* Esto hace que la img.piano esté bien proporcionada y centrada en vista movil - Archivo: tracks.html */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.piano {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
 /* Esto hace que la img del header quede centrada y bien proporcionada según el dispositivo que se use  */
 @media (min-width: 320px) and (max-width: 768px) {
     body header img {
