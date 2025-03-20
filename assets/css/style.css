@@ -44,6 +44,11 @@ body section a {
     color: yellow;
 }
 
+ul.cap_lista {
+    list-style: disc;
+    color: yellow;
+}
+
 /* Esto ajusta img.dog para vista móvil */
 @media (min-width: 320px) and (max-width: 768px) {
     img.dog {
@@ -93,10 +98,25 @@ img.fun_gang {
     margin: 0 auto;
 }
 
+header.cap_logos {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 h1.titulos {
     text-align: center;
     display: block;
     margin: 0 auto;
+}
+
+/* Esto hace que la img.beginning esté centrada y bien proporcionada en vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.beginning {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
 img.beginning {
@@ -105,37 +125,61 @@ img.beginning {
     margin: 0 auto;
 }
 
-img.mundo_oscuro {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen del mundo oscuro para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.mundo_oscuro {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.mundo_oscuro {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto hace que la imagen y el texto del mundo oscuro estén juntos en la vista desktop */
+@media (min-width: 1024px) {
+    div.img_mundo_oscuro {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.field {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen del field para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.field {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.field {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto hace que la imagen y el texto del field estén juntos en la vista desktop */
+@media (min-width: 1024px) {
+    div.img_field {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.forest {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen del forest para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.forest {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.forest {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto hace que la imagen y el texto del forest estén juntos en la vista desktop */
+@media (min-width: 1024px) {
+    div.img_forest {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
 article ul a {
@@ -143,37 +187,72 @@ article ul a {
     color: white;
 }
 
-img.castillo {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen del castillo para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.castillo {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.castillo {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto hace que la imagen y el texto del castillo estén juntos en la vista desktop */
+@media (min-width: 1024px) {
+    div.img_castillo {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.jevil {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen de Jevil para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.jevil {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.jevil {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto hace que la imagen y el texto de Jevil estén juntos en la vista desktop */
+@media (min-width: 1024px) {
+    div.img_jevil {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.pueblo {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen del pueblo para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.pueblo {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.pueblo {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto hace que la imagen y el texto del pueblo estén juntos en la vista desktop */
+@media (min-width: 1024px) {
+    div.img_pueblo {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    div.logos img {
+        max-width: 50%;
+        margin: 0 auto;
+        height: auto;
+    }
+    div.logos img.ps4_logo {
+        max-width: 100%;
+    }
 }
 
 div.logos {
