@@ -1,34 +1,45 @@
-# Deltarune Fan Page
+# 🎮 Deltarune Fan Page 🎭  
 
-Bienvenido a la página fan de **Deltarune**, un videojuego de rol desarrollado por Toby Fox. Este sitio está dedicado a proporcionar información sobre el juego, sus capítulos y contenido adicional para los entusiastas.
+¡Bienvenido a la **Deltarune Fan Page**! 🌟 Este es un sitio dedicado a los fans de **Deltarune**, el icónico RPG creado por **Toby Fox**. Aquí encontrarás información sobre el juego, sus capítulos y contenido especial para la comunidad.  
 
-## Contenido del Sitio
+---
 
-- **Inicio**: Introducción al juego y su premisa principal.
-- **Capítulos**: Sección dedicada a los capítulos lanzados hasta la fecha:
-  - [Capítulo 1: The Beginning](#)
-  - [Capítulo 2: A Cyber's World](#)
-- **Extras**: Contenido adicional, incluyendo música no utilizada en el juego y una sección de preguntas frecuentes (FAQ).
+## 📝 Contenido del Sitio  
 
-## Tecnologías Utilizadas
+📌 **Inicio** – Introducción al universo de Deltarune.  
+📌 **Capítulos** – Información detallada sobre cada capítulo disponible:  
+   - 🎭 **Capítulo 1**: *The Beginning*  
+   - 🌐 **Capítulo 2**: *A Cyber’s World*  
+📌 **Extras** – Sección con contenido adicional, como música no utilizada y un FAQ.  
 
-- **HTML5**: Estructura y contenido del sitio.
-- **CSS3**: Estilos y diseño visual.
+---
 
-## Cómo Navegar el Sitio
+## 🛠️ Tecnologías Utilizadas  
 
-Utiliza el menú de navegación para explorar las diferentes secciones. En la página principal, encontrarás enlaces directos a los capítulos y contenido extra. Al hacer clic en las imágenes destacadas, serás redirigido a contenido adicional relacionado con Deltarune.
+🎨 **HTML5** – Estructura del sitio.  
+🎨 **CSS3** – Diseño y estilos visuales.   
 
-## Créditos
+---
 
-Este sitio fue desarrollado por [Nicholas De La Rosa](https://github.com/nicholas-delarosa) como parte de la segunda preentrega del curso de Desarrollo Web de CoderHouse.
+## 🚀 Cómo Navegar  
 
-## Licencia
+🖱️ Usa el menú de navegación para moverte entre las secciones.  
+🔍 Haz clic en las imágenes destacadas para acceder a contenido adicional.  
+🎼 Explora la sección de *Extras* para descubrir curiosidades del juego.  
 
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+---
 
-## Contacto
+## 🏆 Créditos  
 
-Para sugerencias o comentarios, puedes contactar al desarrollador a través de su [perfil de GitHub](https://github.com/nicholas-delarosa).
+💻 Desarrollado por **[Nicholas De La Rosa](https://github.com/nicholas-delarosa)**  
+📅 Proyecto creado como parte del curso de desarrollo web de CoderHouse.  
 
-¡Gracias por visitar la Deltarune Fan Page!
+---
+
+## 📬 Contacto  
+
+📧 ¿Sugerencias o comentarios? Puedes contactar al desarrollador en su [GitHub](https://github.com/nicholas-delarosa).  
+
+---
+
+✨ *Gracias por visitar la Deltarune Fan Page. ¡Que tengas un gran viaje por el Dark World!* 🌑  
