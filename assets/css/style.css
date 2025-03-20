@@ -112,14 +112,14 @@ h1.titulos {
 
 /* Esto hace que la img.beginning esté centrada y bien proporcionada en vista móvil */
 @media (min-width: 320px) and (max-width: 768px) {
-    img.beginning {
+    img.name_caps {
         max-width: 100%;
         margin: 0 auto;
         height: auto;
     }
 }
 
-img.beginning {
+img.name_caps {
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -244,7 +244,13 @@ article ul a {
     }
 }
 
+/* Esto hace que los logos de PC/MAC, Nintendo y PS4 queden bien ajustados y acomodados en la vista para móvil */
 @media (min-width: 320px) and (max-width: 768px) {
+    div.logos {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
     div.logos img {
         max-width: 50%;
         margin: 0 auto;
@@ -255,65 +261,122 @@ article ul a {
     }
 }
 
-div.logos {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
+/* Esto hace que los logos de PC/MAC, Nintendo y PS4 queden bien ajustados y acomodados en la vista desktop */
+@media (min-width: 1024px) {
+    div.logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    div.logos img.ps4_logo {
+        margin-left: 20px;
+    }
 }
 
-img.ciudad {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen de la ciudad para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.ciudad {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.ciudad {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto ajusta la imagen y el texto de la ciudad para la vista desktop */
+@media (min-width: 1024px) {
+    div.img_ciudad {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.mansion {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen de la mansión de Queen para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.mansion {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.mansion {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto ajusta la imagen y el texto de la mansión de Queen para la vista desktop */
+@media (min-width: 1024px) {
+    div.img_mansion {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.puzzle {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle ;
+/* Esto ajusta la imagen del puzzle para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.puzzle {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.puzzle {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto ajusta la imagen y el texto del puzzle para la vista desktop */
+@media (min-width: 1024px) {
+    div.img_puzzle {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-img.rouxls {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle;
+/* Esto ajusta la imagen de Rouxls para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.rouxls {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.rouxls {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto ajusta la imagen y el texto de Rouxls para la vista desktop */
+@media (min-width: 1024px) {
+    div.img_rouxls {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
 }
 
-img.queen {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: middle;
+/* Esto ajusta la imagen de Queen para la vista móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    img.queen {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
-p.queen {
-    display: inline-flex;
-    padding-top: 15px;
+/* Esto ajusta la imagen y el texto de Queen para la vista desktop */
+@media (min-width: 1024px) {
+    div.img_queen {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Esto ajusta el video para la vista de móvil */
+@media (min-width: 320px) and (max-width: 768px) {
+    body video {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
 }
 
 body video {
